@@ -1,0 +1,40 @@
+p{
+    /*
+    Separado: 
+    margin-top: 30 px;
+    margin-bottom: 30 px;
+    margin-left: 30 px;
+    margin-right: 30 px;
+    igual
+    margin: 30px 15px 30px 15px; */
+
+    /* 
+    topo/baixo direita/esquerda
+    margin: 30px 15px; */
+
+    /* 
+    margem em cima, nas duas laterais (ao mesmo tempo) e embaixo
+    margin: 30px 15px 30px; */
+
+    margin: 30px;
+    padding: 20px;
+    background-color: aquamarine;
+    border: 20px solid red;
+    /*
+    border-style: solid;
+    border-width: 20px;
+    border-color: red;
+    */
+}
+h1{
+    border-style: solid;
+    border-width: 20px;
+    /*
+    border-top-color: green;
+    border-bottom-color: orange;
+    border-right-color: blueviolet;
+    border-left-color: crimson;
+    */
+
+    border-color: green blueviolet orange crimson;
+}

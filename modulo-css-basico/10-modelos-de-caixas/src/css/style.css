@@ -1,0 +1,10 @@
+*{
+    margin: 0px;
+    padding: 0px;
+}
+p{
+    margin: 20px;
+    padding: 30px;
+    border: solid 10px green;
+    background-color: aqua;
+}
