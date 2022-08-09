@@ -1,3 +1,6 @@
-#descricao-game, #descricao-pc{
+.descricao-produto{
 background-color: orange;
+}
+.promocao{
+    border: solid 5px green;
 }

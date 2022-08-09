@@ -1,0 +1,21 @@
+/* EM */
+html{
+    background-color: #ccc;
+}
+body{
+    background-color: #000;
+    color: #fff;
+    width: 50%;
+    font-size: 2em;
+
+}
+.pai{
+    background-color: rgb(25, 155, 200);
+    width: 50%;
+    font-size: 3em;
+}
+.filho{
+    background-color: rgb(54, 250, 15);
+    width: 50%;
+    font-size: 1.5em;
+}
