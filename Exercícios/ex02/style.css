@@ -34,15 +34,15 @@ div{
 }
 img{
     margin: 10px;
-    align-items: center;
+    align-items: baseline;
 }
 
-a{
+#link{
     text-decoration: none;
     color: rgb(172, 172, 116);
 }
 
-a:hover{
+#link:hover{
     background-color: beige;
     padding: 5px;
     border-radius: 10px;
