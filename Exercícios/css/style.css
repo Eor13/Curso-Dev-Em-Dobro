@@ -1,0 +1,35 @@
+*{
+    margin: 0px;
+}
+body{
+    margin: auto;
+    padding: 5px;
+    text-align: center;
+    font-family: monospace;
+    font-size: 1.5em;
+    
+}
+header main{
+    width: 800px;
+    height: 800px;
+}
+h1, h2{
+    margin: 2px;
+    padding: 10px;
+    border-radius: 10px;
+    background-color: #0b2052;
+    color: beige;
+}
+li{
+    text-align: right;
+}
+
+.valor{
+    font-weight: bold;
+}
+#valor-total{
+    text-transform: uppercase;
+    color: #0b2052;
+    border-radius: 40px;
+    border: solid 2px #0b2052;
+}
