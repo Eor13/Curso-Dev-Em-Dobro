@@ -7,12 +7,9 @@ body{
     text-align: center;
     font-family: monospace;
     font-size: 1.5em;
-    
+    width: 450px 
 }
-header main{
-    width: 800px;
-    height: 800px;
-}
+
 h1, h2{
     margin: 2px;
     padding: 10px;
@@ -24,12 +21,14 @@ li{
     text-align: right;
 }
 
-.valor{
-    font-weight: bold;
-}
 #valor-total{
     text-transform: uppercase;
     color: #0b2052;
     border-radius: 40px;
     border: solid 2px #0b2052;
+    text-align: right;
+    padding: 5px 5px;
+    margin-top: 20px;
+    margin-right: -5px;
+    
 }
