@@ -33,9 +33,15 @@ text-decoration: line-through;
 text-decoration: none;
 }
 
+/* ------------------------------------- */
+.altura-entre-linhas{
+    line-height: 40px;
+}
 
-
-
+/*       --------------------------------- */
+.sombra-de-texto{
+    text-shadow: 20px 5px 1px rgba(0, 0, 0, 0.585);
+}
 
 .fundo-alinhamento{
     padding: 20px;
