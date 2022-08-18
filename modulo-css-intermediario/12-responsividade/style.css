@@ -34,3 +34,15 @@ main P{
 .image img{
     width: 100%;
 }
+/* dispositivos extra pequenos (celulares em posição porta retrato), menores do que 576px */
+@media(max-width:576px){
+    .cabecalho{
+        text-align: center;
+    }
+    .cabecalho nav{
+        float: none;
+    }
+    .cabecalho nav li{
+        display: block;
+    }
+}
