@@ -1,0 +1,14 @@
+div .fa-facebook{
+    color: orange;
+    font-size: 60px;
+    text-align: center;
+}
+.fa-facebook:hover{
+    color: red;
+}
+
+ div .fa-instagram{
+    font-size: 60px;
+    text-align: center;
+    background: #a689cb;
+}
