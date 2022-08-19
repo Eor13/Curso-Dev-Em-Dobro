@@ -1,0 +1,22 @@
+/* seletor::pseudo-elemento{
+    propriedade: valor;
+} */
+
+.primeiro-caracter::first-letter{
+    color: coral;
+}
+.primeira-linha::first-line{
+    color: coral;
+}
+li::marker{
+    color: rebeccapurple;
+    font-size: 24px;
+}
+
+
+.before::before{
+    content: url(flor-150.jpg);
+}
+.after::before{
+    content: url(flor-150.jpg);
+}
