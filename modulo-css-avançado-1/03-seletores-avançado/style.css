@@ -1,0 +1,22 @@
+h3{
+    color: darkgreen;
+}
+.classe{
+    color: lightblue;
+}
+#identificador{
+    margin-left: 50px;
+}
+*{
+    margin: 0;
+    padding: 0;
+}
+.titulo{
+    font-size: 30px;
+}
+.titulo.laranja{
+    color: orange;
+}
+.titulo.vermelho{
+    color: red;
+}
