@@ -15,8 +15,8 @@ li::marker{
 
 
 .before::before{
-    content: url(flor-150.jpg);
+    content: url(../image/flor-150.jpg);
 }
-.after::before{
-    content: url(flor-150.jpg);
+.after::after{
+    content: "blá blá blá";
 }
