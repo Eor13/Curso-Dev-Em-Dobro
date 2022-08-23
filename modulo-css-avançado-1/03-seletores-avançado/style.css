@@ -20,3 +20,25 @@ h3{
 .titulo.vermelho{
     color: red;
 }
+p, span{
+    font-size: 12px;
+}
+
+.sobre .texto{
+    background-color: burlywood;
+}
+
+section > p{
+    background-color: coral;
+}
+
+div + p{
+    color: yellow;
+}
+
+a[target= _blank]{
+    color: red;
+}
+a[href="google.com"]{
+    background-color: aquamarine;
+}
