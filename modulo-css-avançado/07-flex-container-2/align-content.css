@@ -1,6 +1,7 @@
 .container{
     height: 130px;
     flex-wrap: wrap;
+    max-width: 300px;
 }
 .flex-start .item,
 .flex-end .item,
@@ -11,4 +12,22 @@
 
 .flex-start{
     align-content: flex-start;
+}
+.flex-end{
+    align-content:flex-end;
+}
+.center{
+    align-content: center;
+}
+.stretch{
+    align-content: stretch ;
+}
+.space-between{
+    align-content: space-between;
+}
+.space-around{
+    align-content: space-around;
+}
+.space-evenly{
+    align-content:space-evenly;
 }
