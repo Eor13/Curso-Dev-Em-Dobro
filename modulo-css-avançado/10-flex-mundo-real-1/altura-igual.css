@@ -1,3 +1,14 @@
+section{
+    background-color: aquamarine;
+    display: flex;
+    align-items: center;
+    flex-direction: column;
+}
+section h1{
+    display: flex;
+    align-self: center;
+
+}
 .flex{
     display: flex;
     width: 960px;
