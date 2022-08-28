@@ -15,7 +15,7 @@
     width: 100%;
     height: 426px;
     padding: 60px 0;
-    background-color: aquamarine;
+    /* background-color: aquamarine; */
 }
 .logo strong{
     display: flex;
@@ -30,15 +30,51 @@
 }
 .link-para-outras-paginas li{
     display: flex;
-    flex: 0 1 auto;
+    flex: 0 0 auto;
     margin-left: 30px;
 }
 
 .sobre{
     background-color:#5BC241;
+    color: #fff;
     padding: 11px 7px;
 }
 .cadastre-se{
     background: #5BC241;
+    color: #fff;
     padding: 10px 21px;
+    border-radius: 10px;
+}
+
+@media(max-width:375px){
+    *{
+        margin: 0;
+        padding: 0;
+        font-size: 30px;
+    }
+    .menu{
+        display: block;
+        text-align: center;
+        width: 100%;
+        height: 800px;
+        padding: 45px 0 55px 0;
+    }
+    .logo strong{
+        display: block;
+        padding: 0;
+    }
+    .link-para-outras-paginas{
+        display: block;
+        padding: 0;
+    }
+    .link-para-outras-paginas li{
+        display: block;
+        justify-content: center;
+        margin: 25px 0px;
+        
+    }
+    .cadastre-se{
+    font-size: 18px;
+    font-weight: 300;
+    }
 }
