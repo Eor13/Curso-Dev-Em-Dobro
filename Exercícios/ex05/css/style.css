@@ -1,28 +1,29 @@
 .mural{
     display: flex;
-    flex-direction:row;
+    flex-direction: row;
     justify-content: center;
     width: 100%;
     height: 690px;
     margin: 130px 0;
 }
 
-.mural img{
+.quadro{
     width: 335px;
     height: 432px;
-    padding: 0 20px;
+    padding: 0 10px;
+    flex-shrink: 0;
 }
 
 @media(max-width:400px){
     .mural{
-        width: 100%;
         flex-direction: column;
         align-items: center;
         height: 1820px;
-        margin: 45px 20px;
-        /* flex: 0 0 335px; */
+        margin: 45px 0px;
+        
     }
     .mural img{
         padding: 5px 0;
+        margin: 0 ;
     }
 }
