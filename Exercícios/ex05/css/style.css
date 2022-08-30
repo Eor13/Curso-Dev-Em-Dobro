@@ -1,29 +1,52 @@
+main{
+    display: flex;
+    min-height: 100vh;
+    justify-content: center;
+    align-items: center;
+}
 .mural{
     display: flex;
-    flex-direction: row;
     justify-content: center;
-    width: 100%;
-    height: 690px;
-    margin: 130px 0;
+    align-items: center;
+    flex-wrap: wrap;
+    width: 100vw;
+    padding: 25px 0;
 }
 
 .quadro{
+    position: relative;
     width: 335px;
     height: 432px;
-    padding: 0 10px;
-    flex-shrink: 0;
+    padding: 5px 10px;
+}
+h2{
+    position: absolute;
+    top: 310px;
+    left: 30px;
+    font-size: 30px;
+    font-weight: 700;
+    color: #fff;
+}
+h3{
+    position: absolute;
+    top: 350px;
+    left: 30px;
+    font-size: 17px;
+    font-weight: 300;
+    color: #fff;
+}
+@media(max-width:1440px){
+    .mural{
+        max-width: 900px;
+        justify-content: center;
+        height: 900px;
+    }
+}
+@media(max-width:600px){
+    .mural{
+        max-width: 500px;
+        justify-content: center;
+        height: 1820px;
+    }
 }
 
-@media(max-width:400px){
-    .mural{
-        flex-direction: column;
-        align-items: center;
-        height: 1820px;
-        margin: 45px 0px;
-        
-    }
-    .mural img{
-        padding: 5px 0;
-        margin: 0 ;
-    }
-}
