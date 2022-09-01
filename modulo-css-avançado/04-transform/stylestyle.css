@@ -5,9 +5,11 @@ img{
 img.scale{
     transform: scale(2, 1);
 }
+
 img.rotate{
     transform: rotate(20deg);
 }
+
 img.translate{
     transform: translate(80px, 30px);
 }
