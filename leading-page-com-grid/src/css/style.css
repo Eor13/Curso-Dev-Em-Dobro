@@ -1,0 +1,34 @@
+html{
+    font-size: 62.5%;
+}
+body{
+    display: grid;
+    grid-template-areas:
+    "header header header header"
+    "hero hero hero hero"
+    "about about about about"
+    "services services services services"
+    "projects projects projects projects"
+    "footer footer footer footer";
+    grid-template-columns: repeat(4, 1fr);
+    font-size: 3rem;
+    font-weight: 400;
+    font-family: 'Roboto', sans-serif;
+}
+.header{
+    grid-area: header;}
+.hero{
+    grid-area: hero;
+}
+.about{
+    grid-area: about;
+}
+.services{
+    grid-area: services;
+}
+.projects{
+    grid-area: projects;
+}
+.footer{
+    grid-area: footer;
+}
