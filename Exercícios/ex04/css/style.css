@@ -52,6 +52,8 @@
     }
     .logo strong{
         padding-left: 0;
+        font-size: 47px;
+        font-weight: 800;
     }
     .link-para-outras-paginas{
         flex-direction: column;
