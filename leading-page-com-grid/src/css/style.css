@@ -15,20 +15,54 @@ body{
     font-weight: 400;
     font-family: 'Roboto', sans-serif;
 }
+/* header */
 .header{
-    grid-area: header;}
-.hero{
-    grid-area: hero;
+    grid-area: header;
+    background-color: #fff;
 }
+.header .header-container{
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    min-height: 75px;
+    padding: 20px 40px;
+}
+
+.header .header-container .logo{
+    font-size: 3rem;
+    font-weight: 700;
+    transition: 0.3s;
+}
+.header .header-container a:hover{
+    color: coral;
+}
+
+    /* hero */
+    .hero{
+    grid-area: hero;
+    background-color: brown;
+}
+
+/* about */
 .about{
     grid-area: about;
+    background-color: violet;
 }
+
+/* services */
 .services{
     grid-area: services;
+    background-color: peru;
 }
+
+/* porjects */
 .projects{
     grid-area: projects;
+    background-color: palevioletred;
 }
+
+/* footer */
 .footer{
     grid-area: footer;
+    background-color: orange;
 }
