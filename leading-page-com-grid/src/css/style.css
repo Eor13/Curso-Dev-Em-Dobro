@@ -134,15 +134,68 @@ body{
 /* services */
 .services{
     grid-area: services;
-    background-color: peru;
+    display: grid;
+    grid-template-columns: 1fr 1fr;
 }
 
-/* porjects */
+.services .service{
+    padding: 70px 20px;
+    text-align: center;
+}
+.services .service img{
+    width: 250px;
+    margin-bottom: 30px;
+}
+.services .service .service-info h3{
+    font-size: 1.8rem;
+    font-weight: 700;
+}
+
+.services .service .service-info p{
+    font-weight: 400;
+    font-size: 2rem;
+    max-width: 400px;
+    margin: 20px auto 0;
+    line-height: 30px;
+}
+.services .service:nth-child(1){
+    background-color: lightskyblue;
+}
+.services .service:nth-child(2){
+    background-color: lightpink;
+}
+@media(max-width:425px){
+    .services{
+        grid-template-columns: 1fr;
+    }
+}
+
+/* projects */
 .projects{
     grid-area: projects;
-    background-color: palevioletred;
+    display: grid;
+    grid-template-columns: repeat(4,1fr);
 }
 
+.projects img{
+    height: 100%;
+    transition: 0.3s;
+}
+.projects a:hover img{
+    opacity: 0.8;
+}
+@media(max-width:760px){
+    .projects{
+    grid-template-columns: 1fr 1fr;
+    grid-template-rows: 1fr 1fr;
+    }
+}
+@media(max-width:425px){
+    .projects{
+    grid-template-columns: 1fr;
+    grid-template-rows: repeat(4,1fr);
+    }
+}
 /* footer */
 .footer{
     grid-area: footer;
