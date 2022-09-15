@@ -43,10 +43,10 @@ body{
     height: 89vh;
     background: url(../images/lemons.jpg) center center no-repeat;
     background-size: cover;
-        display: flex;
-        justify-content: center;
-        align-items: center;
-        position: relative;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    position: relative;
 }
 
 .hero h2{
