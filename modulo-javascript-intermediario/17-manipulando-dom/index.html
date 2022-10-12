@@ -1,0 +1,33 @@
+<!DOCTYPE html>
+<html lang="pt-br">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Manipulando o DOM</title>
+</head>
+<body>
+    <h1>Posts do Twitter</h1>
+
+    <article class="post">
+        <p><strong>Everson de Oliveira</strong> <span>@Eor - 10 min</span></p>
+        <p>
+            Lorem ipsum dolor sit amet consectetur adipisicing elit. Ad, qui non fugit doloribus molestiae, eos quasi molestias nam omnis iure praesentium rem. Quos eos temporibus totam! Nihil ea provident quam.
+        </p>
+
+        <br>
+
+        <div class="comentarios">
+            <h3>Comentários</h3>
+            <input type="text" name="novo-comentario" placeholder="Digite o seu comentário">
+            <button onclick="adicionarComentario()">Adiconar comentário</button>
+
+            <br>
+            <div id="novos-comentarios"></div>
+
+        </div>
+    </article>
+    
+    <script type="text/javascript" src="index.js"></script>
+</body>
+</html>
