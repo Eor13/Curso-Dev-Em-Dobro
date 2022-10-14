@@ -1,0 +1,23 @@
+h1{
+    text-align: center;
+    margin-bottom: 100px;
+}
+.quadrado{
+    display: flex;
+    margin: auto;
+    width: 80px;
+    height: 80px;
+}
+.azul{
+    background-color: blue;
+}
+.amarelo{
+    background-color: yellow;
+}
+.vermelho{
+    background-color: red;
+}
+#btn-de-troca{
+    display: flex;
+    margin: 20px auto;
+}

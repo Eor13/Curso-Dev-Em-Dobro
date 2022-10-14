@@ -1,0 +1,18 @@
+h1{
+    text-align: center;
+    margin-bottom: 100px;
+    color: whi;
+}
+.quadrado{
+    display: flex;
+    margin: auto;
+    width: 200px;
+    height: 200px;
+    background-color: black;
+    color: white;
+    justify-content: center;
+    align-items: center;
+}
+.azul{
+    background-color: blue;
+}
