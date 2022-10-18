@@ -9,7 +9,11 @@ inputTexto.forEach(inputNomeEscolhivel => {
         // Passo 4 - Realizar a verificação se o valor do input é diferente de vazio.
         if(inputNomeEscolhivel.value !== ""){
             // Passo 5 - Se o input tiver alguma informação, adicionamos a classe de campo-preenchido que vai dar a borda verde ao input.
-            inputNomeEscolhivel.style.border="3px solid green"
+            inputNomeEscolhivel.classList.add("borda")
+            
+            // inputNomeEscolhivel.style.border="3px solid green"
+        }else{
+            inputNomeEscolhivel.classList.remove("borda")
         }
     })
 });
