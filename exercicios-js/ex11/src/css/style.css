@@ -1,0 +1,95 @@
+html{
+    font-size: 62.5%;
+}
+body{
+    display: flex;
+    background-color: #E5E5E5;
+    height: 100vh;
+    justify-content: center;
+    align-items: center;
+}
+.box{
+    display: flex;
+    background-color:#FCFCFC;
+    width: 655px;
+    min-height: 347px;
+    gap: 40px;
+    align-items: center;
+    border-radius: 20px;
+    box-shadow: 1px 10px 10px rgba(0, 0, 0, 0.3);
+}
+
+.box .boxOfImage{
+    margin-left: -90px;
+}
+.box .boxOfImage img{
+    width: 278px;
+    height: 293px;
+}
+
+.box .boxOfDoubt{
+    display: flex;
+    align-items: flex-start;
+    flex-direction: column;
+    line-height: 1.2rem;
+    margin-top: 5%;
+}
+.box .boxOfDoubt h1{
+    text-transform: uppercase;
+    padding: 15px 5px;
+    font-size: 3rem;
+    margin-bottom: 0.6rem;
+}
+.box .boxOfDoubt .doubt{
+    display: flex;
+    flex-direction: column;
+    margin-bottom: 5%;
+    padding: 15px 5px;
+    background: url(../images/seta-fechada.png) no-repeat;
+    background-position: top 15px right 0;
+    background-size: 20px;
+    width: 390px;
+    justify-content: space-between;
+    box-shadow: 0px 2px 0px #d4d4d48a;
+}
+.box .boxOfDoubt .doubt:last-child{
+    box-shadow: none;
+}
+
+.box .boxOfDoubt .doubt .question{
+    display: flex;
+    border: 0;
+    font-size: 1.7rem;
+    font-weight: 500;
+    margin-bottom: 10px;
+    cursor: pointer;
+    transition: 0.2s ease;
+}
+.box .boxOfDoubt .doubt .question:hover{
+    color: #f47c57;
+}
+
+.box .boxOfDoubt .doubt .answer{
+    display: none;
+    font-size: 1.7rem;
+    line-height: 18px;
+    font-weight: 300;
+}
+.answer-selected{
+    display: flex;
+    font-size: 0.9rem;
+    font-weight: 300;
+}
+.box .boxOfDoubt .selected{
+    background: url(../images/seta-aberta.png) no-repeat;
+    background-position: top 15px right 0;
+    background-size: 20px;
+
+}
+.box .boxOfDoubt .selected h2{
+    font-weight: 700;
+    font-size: 1.9rem;
+}
+.box .boxOfDoubt .selected .answer{
+    display: block;
+}
