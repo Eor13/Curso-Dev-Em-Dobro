@@ -13,4 +13,4 @@
         doubt.classList.add("selected");
         
     })
-    })
+ })
