@@ -1,0 +1,24 @@
+let pessoas = [
+    {nome: 'Roberto', idade: 33},
+    {nome: 'Ricardo', idade: 33},
+    {nome: 'Raphael', idade: 27}
+];
+
+// let pessoasComIdadeDe33Anos =[];
+// for( let i = 0; i < pessoas.length; i++){
+    //     if(pessoas[i].idade ===33){
+//         pessoasComIdadeDe33Anos.push(pessoas[i])
+//     }
+// };
+// console.log(pessoasComIdadeDe33Anos)
+
+// Primeira maneira de fazer o FILTER
+let pessoasComIdadeDe33Anos =pessoas.filter(function(pessoa){
+    return pessoa.idade === 33
+});
+console.log(pessoasComIdadeDe33Anos)
+
+
+// Segunda maneira de fazer o FILTER
+let pessoasComIdadeDe27Anos =pessoas.filter((pessoa) => pessoa.idade === 27);
+console.log(pessoasComIdadeDe27Anos)
